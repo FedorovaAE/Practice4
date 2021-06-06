@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Message msg = new Message();
         Bundle bundle = new Bundle();
         bundle.putString("KEY", "mirea");
-        bundle.putString("KEY1", "я учусь в РТУ МИРЭА");
+        bundle.putString("KEY1", "Ищу работу X)");
         msg.setData(bundle);
         if (myLooper != null) {
             myLooper.handler.sendMessage(msg);

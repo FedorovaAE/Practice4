@@ -23,7 +23,7 @@ public class MyLooper extends Thread {
                 number++;
                 Date d = new Date();
                 int seconds = d.getSeconds();
-                Log.d("MyLooper", "Мой возраст: " + seconds + " и " +
+                Log.d("MyLooper", "Возраст: " + seconds + " и " +
                         msg.getData().getString("KEY1"));
             }
         };
